@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #ffc81e;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 8px; 
+   padding: 10px;
+}
+   body.home-page{
+
+background-image: url(imges/startegy.png);
+
+background-repeat: no-repeat;
+
+   }
+body{
+    background-color: #ffc81e;
+}
+.nav-item {
+padding: 6px 14px;
+border-radius: 10px;
+text-decoration: none;
+color: #2b2b2b;
+border-width: 1px ;
+border-color:#fff3cd;
+border-style: solid;
+align-items: center;
+}
+.nav-item:hover {
+    transform:translateY(-4px);   
+    background-color: #ffff; 
+
+}
+.cards{
+    align-items: center;
+    display: flex;
+    
+    margin-top: 300px;/*تحرك العناصر */
+    font-size:larger;
+    justify-content: space-evenly;
+}
+.cards1{
+    padding: 90px 45px;
+    background-color:#ffc81e;
+    border-radius: 25px;
+    border:8px solid transparent;
+    border-color:#00f2fe;
+    
+    /* box-shadow: 0 4px 15px rgba(79, 172, 254, 0.2); */
+}
+.cards2{
+  padding: 90px 45px;
+border: 8px solid transparent;
+border-radius:25px;
+  border-color: #00f2fe;
+    background-color:#ffc81e;
+}
+.cards3{
+    padding: 90px 45px;
+    border: 8px solid transparent;
+    border-radius: 25px;
+    border-color: #00f2fe;
+    background-color:#ffc81e;
+
+}
+
+.ad-card video{
+    
+    gap: 20px;
+    align-items: center;
+    justify-content:center;
+    padding:20px;
+}
+
+
+.ads-grid {
+  display: flex;
+  grid-template-columns: repeat(3, 20px);
+  flex-flow: row;
+    width: 100px ;
+    background-color: #d9ea42;
+    border-radius: 50px;
+    padding:10px;
+    box-shadow: 0 4px 8px rgba(27, 114, 190, 0.2);
+}
+.ab-card video {
+    width: 200%;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 7px;
+
+}
+.cards1:hover,.cards2:hover,.cards3:hover{
+   transform:translateY(-4px);   
+    background-color:rgba(252, 237, 34, 0.9);
+}
+.hero{
+    position: relative;
+    background-image:no-repeat ;
+    background-size: cover;
+    background-position:center;
+    gap: 10px;
+}
+.hero {
+    width: 100%;
+    height: auto;
+    margin-top:86px ;
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-sizing: border-box;
+    overflow: visible;
+    left: -20px;
+}
+.hero-img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 100%;
+}
+section{
+    min-height: 100vh;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.t{
+    color:black;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid red;
+    background-color: #fff3cd;
+    font-size: 25px;
+}
